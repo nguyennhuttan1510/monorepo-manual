@@ -1,0 +1,29 @@
+{
+  "name": "my-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
+  "license": "ISC",
+  "workspaces": [
+    "ui",
+    "common/ui",
+    "packages/utils",
+    "apps/my-app",
+    "apps"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "ts-node": "^10.9.1"
+  }
+}

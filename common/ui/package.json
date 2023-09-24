@@ -1,0 +1,19 @@
+{
+  "name": "@my-package/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc --build --force"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@my-package/utils": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.22"
+  }
+}
